@@ -9,7 +9,7 @@ on:
 env:
   DOCKER_PROJECT_NAME: 'micro-product-actions'
   APP_CONTAINER_NAME: 'product_app_2025'  # Nombre del contenedor de la aplicación
-  DB_NAME: 'product-app-db'  # Nombre de la base de datos en H2
+  DB_NAME: 'product-app-db'  # Nombre de la base de datos en H2 (no necesitas un contenedor)
   DB_USER: 'admin'  # Usuario para la base de datos
   DB_PASSWORD: 'admin123'  # Contraseña para la base de datos
 
